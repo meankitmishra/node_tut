@@ -1,0 +1,3 @@
+// what is a a query parameter??
+
+//->>Query parameters, often referred to as "query strings," are components of a URL (Uniform Resource Locator) used to pass data to a web server as part of an HTTP request. They are typically located after the question mark (?) in a URL and are used to provide additional information to a web server for processing. Query parameters are composed of key-value pairs, and multiple key-value pairs can be separated by an ampersand (&)
