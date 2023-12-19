@@ -1,19 +1,12 @@
 const express = require ('express')
-const path = require ('path')
-
 const app = express()
 
-app.use(express.static('./public'))
-
 app.get('/',(req,res)=>{
-    //res.status(200).sendFile(path.resolve(__dirname,'./navbar-app/index.html'))
-
-    // adding to static assets
-    // SSR
+    res.status(200).send('Home Page')
 })
 
 app.get('/about',(req,res)=>{
-    res.status(200).send('Here is some of the information')
+    res.status(200).send('Here is some of the inforation')
 })
 
 app.all('*',(req,res)=>{

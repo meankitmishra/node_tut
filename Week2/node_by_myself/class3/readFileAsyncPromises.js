@@ -19,14 +19,12 @@ const start = async() =>{
     catch(error){
         console.log(error);
     }
-    
-   
 }
 start()
 
 
 // const getText=(path)=> {
-//     return new Promise ((resolve,reject)=>
+//     return new Promise ((resolve,reject)=>{
 //     readFile(path,'utf-8', (err,data)=>{
 //         if(err){
 //             reject(err)
