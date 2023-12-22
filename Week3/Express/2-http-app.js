@@ -4,8 +4,8 @@ const { readFileSync } = require ('fs')
 
 //get all files
 const homePage = readFileSync('./navbar-app/index.html')
-const aboutPage= readFileSync('./about.html')
-const errorPage = readFileSync('./error.html')
+const aboutPage= readFileSync('./navbar-app/about.html')
+const errorPage = readFileSync('./navbar-app/error.html')
 const homePageStyles = readFileSync('./navbar-app/styles.css')
 const logo = readFileSync('./navbar-app/logo.svg')
 const navbarlogic = readFileSync('./navbar-app/browser-app.js')
